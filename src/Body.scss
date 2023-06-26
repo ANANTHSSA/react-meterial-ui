@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+.card{
+    .container{
+    width: 90%;
+    margin: auto;
+    padding: 0 15px;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .col-3{
+        width: 25%;
+    }
+    .col-4{
+        width: 33.33%;
+    }
+    .css-1rwjz6-MuiCardActions-root{
+        justify-content: space-around;
+    }
+    .css-46bh2p-MuiCardContent-root h3,h4{
+        display: inline-block;
+        padding:5px;
+        font-size: 14px;
+    }
+    .css-46bh2p-MuiCardContent-root{
+        font-size: 14px;
+        text-align: center;
+    }
+    .css-185gdzj-MuiCardHeader-root {
+        padding: 0;
+    }
+    .card-item{
+        padding: 10px;
+    }
+
+}
+.loged{    
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+    .container{
+        width: 90%;
+        margin: auto;
+        padding: 0 15px;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    .form1{
+    background: darkgray;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+}
+.label{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    padding: 8px 0;
+}
+.button{
+    margin-top: 10px;
+}
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+.form1{
+    background: red;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.label{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    padding: 8px 0;
+}
+.button{
+    margin-top: 10px;
+}   
+}
+.form{
+    a{
+        text-decoration: none;
+        background: gold;
+        padding: 6px 20px;
+        color: white;
+        font-size: 22px;
+        font-weight: 900;
+        border-radius: 25px;
+        margin-top: 70px;
+        display: block;
+        align-items: center;
+
+    }
+}
+.form1{
+    a{
+        text-decoration: none;
+        background: gold;
+        padding: 6px 20px;
+        color: white;
+        font-size: 22px;
+        font-weight: 900;
+        border-radius: 25px;
+        width: 150px;
+        margin-top: 10px;
+        display: block;
+        align-items: center;
+
+    }
+}
